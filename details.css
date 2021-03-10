@@ -1,0 +1,41 @@
+.detail-form {
+  position: relative;
+}
+
+.detail-form form {
+  padding: 50px;
+  width: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 450px;
+  background-color: whitesmoke;
+}
+
+.detail-form h2 {
+  font-weight: 600;
+  font-family: Source Sans Pro;
+}
+
+.detail-form label {
+  font-family: Sourse Sans Pro;
+  font-weight: 400;
+}
+
+.detail-form input {
+  border-radius: 10px;
+  border-color: darkgrey;
+}
+
+.detail-form input[type=submit] {
+  width: 115px;
+  background-color: blue;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=details.css.map */

@@ -1,0 +1,36 @@
+.detail-form{
+    position: relative;
+    form{
+        padding: 50px;
+        width: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top : 450px;
+        background-color: whitesmoke;
+    }
+    h2{
+        font-weight:600;
+        font-family: Source Sans Pro;
+    } 
+    label{
+        font-family: Sourse Sans Pro;
+        font-weight: 400;
+        
+    }  
+    input{
+        border-radius: 10px;
+        border-color: darkgrey;
+    }
+    input[type=submit]{
+        width: 115px;
+        background-color: blue;
+        color: white;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+
+    }
+}
